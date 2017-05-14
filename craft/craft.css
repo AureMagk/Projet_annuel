@@ -1,0 +1,365 @@
+@font-face{
+	font-family : 'Odin';
+	src : url('../font/Odin.otf');
+
+}
+@font-face{
+	font-family: 'instruction';
+	src : url('../font/Instruction.otf');
+}
+@font-face{
+	font-family : "Verde";
+	src : url('../font/Verde.ttf');
+}
+
+body{
+  background-image : url(../img/fond1.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+} 
+
+.allblock {
+	position : relative;
+	
+	color: white;
+	margin-bottom: 50px;
+	align-content: flex-start;
+	left : 8%;
+
+	height: 400px;
+	width: 1000px;
+
+}
+
+#craft_1{
+ background-color: green;
+ opacity: 1;
+
+}
+
+#craft_2{ 
+ background-color: pink;
+opacity: 1;
+	
+}
+
+#craft_3{
+	background-color: orange;
+opacity: 1;
+	
+}
+
+#craft_4{
+	background-color: red;
+opacity: 1;
+	
+}
+
+#craft_5{
+	background-color : blue;
+opacity: 1;
+	
+}
+
+#craft_6{
+ background-color: green;
+ opacity: 1;
+
+}
+
+#craft_7{ 
+ background-color: pink;
+opacity: 1;
+	
+}
+
+#craft_8{
+	background-color: orange;
+opacity: 1;
+	
+}
+
+#craft_9{
+	background-color: red;
+opacity: 1;
+	
+}
+
+#craft_10{
+	background-color : blue;
+opacity: 1;
+	
+}
+#titlepage{
+
+	border-style: groove;
+	border-color : white;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	font-family: Verde;
+	font-size: 50px;
+	padding : 2px;
+
+}
+
+#bigcenter{
+	background-color: rgba(0,0,0, 0.7);
+	
+	margin-left : 10%;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 20%;
+	height: 1000px;
+	background-size: auto;
+	position : relative;
+	
+	color: white;
+}
+
+html{
+	overflow-x: hidden;
+}
+
+#logo{
+	width : 150px;
+	height : 150px;
+	margin-top : 5px;
+	margin-left: 20px;
+	bottom : 10px;
+	/*background-color : pink;*/
+	display : inline-block;
+	-webkit-filter: drop-shadow(1px 1px 0 white)
+                  drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(1px 1px 0 white) 
+          drop-shadow(-1px -1px 0 white);
+
+} 
+
+#title{
+  position: absolute;
+  
+  /*right: 20px;*/
+  
+  /*background-color : green;*/
+  width: 800px;
+  margin-top : 0px;
+
+  /*margin-left : 300px ;*/
+  display : inline-block;
+  text-align : center;
+  font-size : 50px;
+  /*margin-top: 10px;*/
+  margin-left : 100px;
+  font-family : Odin;
+  text-shadow: 3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, -3px 0 0 black;
+  color: white;
+}
+
+#InscriptionConnection{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+
+#links{
+	position: relative;
+	/*margin-left: 50%;*/
+	
+	bottom: 40px;
+
+	/*margin : auto;*/
+	
+	background-size : 100% ;
+	height : 110px;
+
+	background-repeat: no-repeat;
+	font-size : 30px;
+	text-align : center;
+	background-image : url("../img/menu.jpg");
+	background-position : fixed;
+	font-family: instruction;
+	text-decoration: none;
+	color : #E2C628;
+	/*background-color:pink ;*/
+
+}
+
+.link{
+	margin: 0.1px;
+	padding : 70px ;
+	/*border: 4px groove black;*/
+	/*background-color : #B61725 ;*/
+	position : relative;
+	top:30px;	
+	text-decoration: none;
+	color : #E2C628;
+	 text-shadow: 3px 0 0 black, 0 3px 0 black, 0 -3px 0 black, -3px 0 0 black;
+}
+
+#Accueil{
+
+	position:relative;
+	right : 30px;
+}
+
+#Articles{
+	position: relative;
+	right: 60px;
+}
+
+#Craft{
+	position: relative;
+	right: 80px;
+}
+
+#Animation{
+	position: relative;
+	right: 110px;
+}
+
+#Membres{
+	position: relative;
+	right: 200px;
+}
+
+#Contacts{
+	/*position: relative;*/
+	left : 615px;
+	top : -8px;
+	float : left top;
+	/*right: 55px;
+	/*margin-right: 10px;*/
+
+
+}
+#overflow{
+	/*margin-top : 0px;
+	height: 344px;*/
+	width: 800px;
+	/*float : bottom;*/
+	/*margin-left : 100px;
+	margin-right : 100px;
+	
+	/*bottom: 100px;*/
+	background-color: pink;
+	display: inline-block;
+}
+
+#center{
+	/*position:relative;*/
+	width : 100%;
+	display: inline-block;
+	margin-left : 250px;
+	
+}
+
+
+
+
+
+#partenairestitle{
+	text-align: center;
+	color : white;
+	border-style: groove;
+	border-color : white;
+	
+	margin-bottom: 50px;
+	margin-bottom: 20px;
+	font-size : 30px;
+	/*position: relative;
+	top: 60px;*/
+}
+
+#partenaires{
+	position: relative;
+	top: 00px;
+}
+
+#Meltdown{
+	position: relative;
+	left: 100px;
+	padding:10px;
+}
+
+#Logitech{
+	position: relative;
+	left: 100px;
+	padding:10px;
+}
+
+#Asus{
+	position: absolute;
+	left: 35%;
+	bottom: 20px;
+	padding:10px;
+}
+
+#Lyon-e-sport{
+	position: absolute;
+	right: 100px;
+	bottom: 125px;
+	padding:10px;
+	/*background-color: white;*/
+}
+
+#ESL-france{
+	position: absolute;
+	right: 100px;
+	bottom: 20px;
+	padding:10px;
+	/*background-color: orange;*/
+}
+
+#Pandorarts{
+	margin-top: 20px;
+	position: absolute;
+	left: 45%;
+	padding:10px;
+	bottom: 150px;
+}
+
+.part{
+	-webkit-filter: drop-shadow(1px 1px 0 white)
+                  drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(1px 1px 0 white) 
+          drop-shadow(-1px -1px 0 white);
+
+
+
+}
+
+
+
+
+
+#partenairestitle{
+	text-align: center;
+	/*position: relative;
+	top: 60px;*/
+	margin-bottom: 0px;
+	font-family: Verde;
+}
+footer{
+	position: relative;
+	top: 10000px;
+	background-color : #121111;
+	height : 400px;
+	/*position : absolute;*/
+	margin-bottom : 0;
+	width: 100%;
+	margin-top : 1000px;
+	
+	right : 100px;
+	width: 1620px;
+	/*right : 0px;
+	
+	
+	width : auto;
+	position: relative;
+	bottom : 0px;
+	/*padding-left: 0px;
+	padding-right: 0px;*/
+}
